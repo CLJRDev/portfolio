@@ -190,6 +190,16 @@ article {
   margin: 16px 0;
 }
 
+.download-cv-btn {
+  cursor: pointer;
+  transition: transform 0.25s;
+
+}
+
+.download-cv-btn:active {
+  transform: scale(0.8);
+}
+
 .icon-box {
   position: relative;
   background: var(--border-gradient-onyx);
